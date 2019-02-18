@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+span[class^="vas"] {
+    width: 14px;
+    height: 28px;
+    margin-top: 0px;
+    background-image: url('./font.svg');
+    background-repeat: repeat;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 12px;
+
+}
+
+.vasluo {
+    background: 0px -121px;
+}
+
+.vasyan {
+    background: -364px -44px;
+}
+
+.vashua {
+    background: -84px -44px;
+}

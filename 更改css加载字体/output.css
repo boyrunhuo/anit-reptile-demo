@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "my-font";
+    src: url('./fake-number.woff')format("woff")
+}
+
+.font-9527 .map-num{
+    font-family: "my-font" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

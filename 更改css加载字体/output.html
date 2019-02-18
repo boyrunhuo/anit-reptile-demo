@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>更改css加载字体</title>
+    <script src="./input.js"></script>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="font-9527">
+    <div id="content">
+        注册资本: <text class="map-num"></text>
+    </div>
+</body>
+<script>
+    // 更改css加载字体,字体映射处理
+    function mapFont(content) {
+        let result = ''
+        let contentList = String(content).split('')
+        //let mapList = ['9', '4', '6', '7', '0', '3', '8', '5', '1', '2']
+        let mapList = ['e1f2', 'efab', 'eba3', 'ecfa', 'edfd', 'effa', 'ef3a', 'e6f5', 'ecb2', 'e8ae']
+
+        for (let i = 0; i < contentList.length; i++) {
+            if (Number.parseInt(contentList[i]) || Number.parseInt(contentList[i]) === 0) {
+                result = result + mapList[Number.parseInt(contentList[i])]
+            } else {
+                result = result + contentList[i]
+            }
+        }
+        return result
+    }
+
+    let htmlShowNumber = mapFont(importantNum.amount)
+    document.getElementById("content").children[0].innerHTML = htmlShowNumber
+    
+
+</script>
+
+
+</html>
