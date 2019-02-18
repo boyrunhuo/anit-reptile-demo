@@ -1,4 +1,5 @@
+
 let fontmap = {
     "洛": "vasluo",
-    "花": "vashua"
+    "花": "vashua",
 }

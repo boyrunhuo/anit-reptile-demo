@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="650px" height="330.0px">
-<style>text {font-family:PingFangSC-Regular,Microsoft YaHei,'Hiragino Sans GB',Helvetica;font-size:14px;fill:#666;}</style>
+<style>
+text {
+	font-family:PingFangSC-Regular,Microsoft YaHei,'Hiragino Sans GB',Helvetica;
+	font-size:14px;
+	fill:black;
+	}
+</style>
 	<text x="0" y="32">明家弄陕夏汕利蒙定杭昌创建信市青深内二交港泉街感友凤爱结坊和鞍场清新郑主疆澳迁西惠三</text>
 	<text x="0" y="67">成扬中黑肥生花育八工银楼晋博平振烟民号农北德才年义谐阳山设环甘嘉名金源盐道苏公汉河安</text>
 	<text x="0" y="106">赣尔团进汾重常大门济前华体湛木圳化江区岳遵佛业皇川连海封锡庄太胜淄鲁冈头镇梅健站黄绍</text>

@@ -5,15 +5,20 @@
 let p = document.getElementById("text")
 p.innerHTML = input.text
 
+function svgExchange(input) {
+    let result = ''
+    inputList = input.split('')
+    for (let i = 0; i < inputList.length; i++) {
+        if (fontmap.hasOwnProperty(inputList[i])) {
+            result = result + '<span class="'+ fontmap[inputList[i]] +'"></span>'
+        } else {
+            result = result + inputList[i]
+        }
+    }
+    return result
+}
+
 
 let content = document.getElementById("content")
-let inputList = input.text.split('')
-let result = ''
-for (let i = 0; i < inputList.length; i++) {
-    if (fontmap.hasOwnProperty(inputList[i])) {
-        result = result + '<span class="'+ fontmap[inputList[i]] +'"></span>'
-    } else {
-        result = result + inputList[i]
-    }
-}
-content.innerHTML = result
+
+content.innerHTML = svgExchange(input.text)
